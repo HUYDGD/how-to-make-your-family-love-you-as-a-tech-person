@@ -35,13 +35,38 @@ uBlock Origin: ```https://github.com/gorhill/uBlock```
 <br>
 Youtube Auto Skip Sponsor: ```https://github.com/ajayyy/SponsorBlock```
 <br>
-I am Japanophile: ```https://github.com/FooSoft/yomichan```
+Youtube Non Stop: ```https://github.com/lawfx/YoutubeNonStop```
+<br>
+I am Japanophile: ```https://github.com/FooSoft/yomichan``` && ```https://learnjapanese.link/dictionarie```
 
 ## Video player
 Always go with MPV, because I love mining sentences: ```https://github.com/mpv-player/mpv```
 
 ## E-Learning
 Using Anki, it'll help you deal with ADHD: ```https://apps.ankiweb.net/```
+
+## Hakuneko
+Manga & Anime Downloader for Linux: ```https://github.com/manga-download/hakuneko```
+
+## Blender
+```https://www.blender.org/```
+
+## Python
+3.6
+```
+sudo apt-get update
+sudo apt-get install python3.6
+```
+3.8
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.8
+```
+
+## Japanese OCR
+The best, reliable one: ```https://github.com/blueaxis/Cloe``` && ```https://github.com/kha-white/manga-ocr```
 
 ## Using Window Software
 I drink Wine:
@@ -79,6 +104,7 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 pidof ibus-daemon > /dev/null || ibus-daemon -drx
 ```
+On login run: ```Session And Startup```
 
 ## Plank
 ### Love something look like expensive.
