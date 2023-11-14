@@ -54,7 +54,11 @@ sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/
 sudo apt update && sudo apt install --install-recommends winehq-stable
 ```
 <br>
-Play On Linux: ```https://www.playonlinux.com/en/```
+Play On Linux:
+
+```
+https://www.playonlinux.com/en/
+```
 
 ## ibus-bamboo
 ### Hello everyone = Dit me may in Vietnamese.
