@@ -24,9 +24,24 @@ Parents shouldn't waste time with technology, all they need is fast and quality.
 <br>
 ```sudo apt-get remove gnome-keyring```
 
+## Remote Desktop from Windows 10
+```sh
+sudo apt install xrdp
+sudo systemctl enable --now xrdp
+sudo ufw allow from any to any port 3389 proto tcp
+# IP show
+ifconfig -a
+```
+
 ## Browser
 ### Fast is a factor!
 Thorium, I choose you: ```https://github.com/Alex313031/thorium```
+<br>
+```
+Create desktop file
+Exec=<path> --password-store=basic
+Done! No need to type passwd anymore.
+```
 <br>
 Logo: ```https://github.com/Alex313031/thorium/blob/main/logos/NEW/product_logo_2048.png```
 
