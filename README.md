@@ -1,8 +1,9 @@
 # huydgd-xubuntu-config
-HUYDGD Xubuntu Config.
+HUYDGD Xubuntu Config. Goal is a fastest desktop use for family watching TV and e-learning.
 
 # Installation
 ## Themes
+### My family love beautiful GUI.
 Themes: ```git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1```
 </br>
 Icons: ```git clone https://github.com/vinceliuice/WhiteSur-icon-theme```
@@ -12,7 +13,51 @@ Wallpapers: ```git clone https://github.com/vinceliuice/WhiteSur-wallpapers```
 Use install.sh to install all.
 Choose theme & icons in Appearance menu. Don't forget to choose it in Window Manager too.
 
+## Set Default Audio Output Device
+```sh
+pactl list short sinks
+pactl set-default-sink 'Your_Device_Name'
+```
+
+## Disable gnome-keyring
+Parents shouldn't waste time with technology, all they need is fast and quality.
+<br>
+```sudo apt-get remove gnome-keyring```
+
+## Browser
+### Fast is a factor!
+Thorium, I choose you: ```https://github.com/Alex313031/thorium```
+<br>
+Logo: ```https://github.com/Alex313031/thorium/blob/main/logos/NEW/product_logo_2048.png```
+
+### Quality of Life.
+uBlock Origin: ```https://github.com/gorhill/uBlock```
+<br>
+Youtube Auto Skip Sponsor: ```https://github.com/ajayyy/SponsorBlock```
+<br>
+I am Japanophile: ```https://github.com/FooSoft/yomichan```
+
+## Video player
+Always go with MPV, because I love mining sentences: ```https://github.com/mpv-player/mpv```
+
+## E-Learning
+Using Anki, it'll help you deal with ADHD: ```https://apps.ankiweb.net/```
+
+## Using Window Software
+I drink Wine:
+```sh
+sudo dpkg --add-architecture i386
+sudo mkdir -pm755 /etc/apt/keyrings
+sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/kinetic/winehq-kinetic.sources
+sudo apt update && sudo apt install --install-recommends winehq-stable
+```
+<br>
+Play On Linux: ```https://www.playonlinux.com/en/```
+
 ## ibus-bamboo
+### Hello everyone = Dit me may in Vietnamese.
 ```sh
 sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
 sudo apt-get update
@@ -32,6 +77,7 @@ pidof ibus-daemon > /dev/null || ibus-daemon -drx
 ```
 
 ## Plank
+### Love something look like expensive.
 ```sh
 sudo apt update
 sudo apt install plank
