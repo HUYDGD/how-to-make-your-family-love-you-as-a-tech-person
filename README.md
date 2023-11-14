@@ -43,7 +43,11 @@ Exec=<path> --password-store=basic
 Done! No need to type passwd anymore.
 ```
 <br>
-Logo: ```https://github.com/Alex313031/thorium/blob/main/logos/NEW/product_logo_2048.png```
+Logo: 
+
+```
+https://github.com/Alex313031/thorium/blob/main/logos/NEW/product_logo_2048.png
+```
 
 ### Quality of Life.
 uBlock Origin: ```https://github.com/gorhill/uBlock```
