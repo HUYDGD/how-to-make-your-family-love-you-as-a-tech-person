@@ -2,6 +2,15 @@
 HUYDGD Xubuntu Config. Goal is a fastest desktop use for family watching TV and e-learning.
 
 # Installation
+
+## Check Disks
+I buy cheap stuff from Taobao, so always be careful.
+<br>
+```sh
+sudo apt-get install gsmartcontrol
+sudo gsmartcontrol
+```
+
 ## Themes
 ### My family love beautiful GUI.
 Themes: ```git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1```
