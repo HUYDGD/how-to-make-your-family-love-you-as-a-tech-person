@@ -113,7 +113,7 @@ Play On Linux:
 https://www.playonlinux.com/en/
 ```
 
-## ibus-bamboo
+## Type Telex with ibus-bamboo
 ### Hello everyone = Dit me may in Vietnamese.
 ```sh
 sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
@@ -153,3 +153,13 @@ Try this steps if one of these working! I'm using Intel i3-4130 and NVIDIA Gefor
 4. Disable compositors (maybe)
 The issue is always related to cable or graphic card. AMD is your friend when choosing hardware for Linux!
 ```
+
+## Lazy Sofa
+My house has a sofa, parents just get older, they shouldn't sit in the chair and stare in a big screen. That's cause health problem!
+<br>
+Using this software, you can plug in any device like a controller, gamepad. You can map any keyboard to that device. Feel free using computer while laying the bed!
+<br>
+AntiMicro: ```https://github.com/AntiMicro/antimicro```
+<br>
+If you have a bluetooth card, life will be easier!
+
