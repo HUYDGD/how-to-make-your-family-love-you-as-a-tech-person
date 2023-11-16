@@ -160,20 +160,24 @@ My house has a sofa, parents just get older, they shouldn't sit in the chair and
 Using this software, you can plug in any device like a controller, gamepad. You can map any keyboard to that device. Feel free using computer while laying the bed!
 <br>
 AntiMicro: ```https://github.com/AntiMicro/antimicro```
+<br>
 AntiMicroX (Install this, new version): ```https://github.com/AntiMicroX/antimicrox```
 <br>
 If you have a bluetooth card, life will be easier!
 
 ## Edit Family Video
 I'm learning how to use it right now to teach my mom to edit her video. She can say goodbye to Capcut & Kinemaster again!
+<br>
 Davinci Resolve (It's free): ```https://www.blackmagicdesign.com/products/davinciresolve```
 
 ## Edit Family Photo
 Never used GIMP before, but I'm decide to learn it!
+<br>
 GIMP: ```https://www.gimp.org/```
 
 ## Livestream and Karaoke
 My mom want to share her song through social media, you can install OBS to do that.
+<br>
 OBS: ```https://obsproject.com/```
 
 
