@@ -160,6 +160,7 @@ My house has a sofa, parents just get older, they shouldn't sit in the chair and
 Using this software, you can plug in any device like a controller, gamepad. You can map any keyboard to that device. Feel free using computer while laying the bed!
 <br>
 AntiMicro: ```https://github.com/AntiMicro/antimicro```
+AntiMicroX (Install this, new version): ```https://github.com/AntiMicroX/antimicrox```
 <br>
 If you have a bluetooth card, life will be easier!
 
