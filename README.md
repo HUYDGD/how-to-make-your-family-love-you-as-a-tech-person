@@ -172,4 +172,8 @@ Davinci Resolve (It's free): ```https://www.blackmagicdesign.com/products/davinc
 Never used GIMP before, but I'm decide to learn it!
 GIMP: ```https://www.gimp.org/```
 
+## Livestream and Karaoke
+My mom want to share her song through social media, you can install OBS to do that.
+OBS: ```https://obsproject.com/```
+
 
