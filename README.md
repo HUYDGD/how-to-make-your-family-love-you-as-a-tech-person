@@ -142,3 +142,14 @@ sudo apt install plank
 plank
 ```
 On login run: ```Session And Startup```
+
+## Fix Screen Choppy, Tearing, Stutter, Lagging
+```sh
+Try this steps if one of these working! I'm using Intel i3-4130 and NVIDIA Geforce GT 730.
+1. Change display cable (HDMI< VGA< DVI,...)
+(Work for me, it's decrease the amount of lagging)
+2. Remove graphic drivers
+3. Allow more ram for integrated GPU in BIOS setting. I use GA-B85-HD3, after change the value to 1024M for my iGPU, the issue is gone.
+4. Disable compositors (maybe)
+The issue is always related to cable or graphic card. AMD is your friend when choosing hardware for Linux!
+```
