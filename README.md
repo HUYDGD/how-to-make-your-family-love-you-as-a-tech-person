@@ -134,7 +134,7 @@ pidof ibus-daemon > /dev/null || ibus-daemon -drx
 ```
 On login run: ```Session And Startup```
 
-## Plank
+## Look Like MacOS with Plank
 ### Love something look like expensive.
 ```sh
 sudo apt update
@@ -162,4 +162,13 @@ Using this software, you can plug in any device like a controller, gamepad. You 
 AntiMicro: ```https://github.com/AntiMicro/antimicro```
 <br>
 If you have a bluetooth card, life will be easier!
+
+## Edit Family Video
+I'm learning how to use it right now to teach my mom to edit her video. She can say goodbye to Capcut & Kinemaster again!
+Davinci Resolve (It's free): ```https://www.blackmagicdesign.com/products/davinciresolve```
+
+## Edit Family Photo
+Never used GIMP before, but I'm decide to learn it!
+GIMP: ```https://www.gimp.org/```
+
 
