@@ -83,6 +83,9 @@ Always go with MPV, because I love mining sentences: ```https://github.com/mpv-p
 ## E-Learning
 Using Anki, it'll help you deal with ADHD: ```https://apps.ankiweb.net/```
 
+## Reading E-Books (PDF, MOBI, EPUB,...)
+```https://github.com/kovidgoyal/calibre```
+
 ## Hakuneko
 Manga & Anime Downloader for Linux: ```https://github.com/manga-download/hakuneko```
 
