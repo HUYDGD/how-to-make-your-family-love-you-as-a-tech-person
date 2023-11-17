@@ -165,6 +165,17 @@ Try this steps if one of these working! I'm using Intel i3-4130 and NVIDIA Gefor
 The issue is always related to cable or graphic card. AMD is your friend when choosing hardware for Linux!
 ```
 
+## NVIDIA Drivers Uninstall
+```sh
+sudo nvidia-uninstall
+sudo apt remove nvidia-*
+sudo apt-get remove --purge nvidia-*
+sudo apt-get remove --purge libnvidia-*
+sudo ubuntu-drivers autoinstall
+sudo apt autoremove
+sudo apt autoclean
+```
+
 ## Lazy Sofa
 My house has a sofa, parents just get older, they shouldn't sit in the chair and stare in a big screen. That's cause health problem!
 <br>
