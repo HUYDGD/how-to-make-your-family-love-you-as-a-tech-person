@@ -1,5 +1,7 @@
-# huydgd-xubuntu-config
-HUYDGD Xubuntu Config. Goal is a fastest desktop use for family watching TV and e-learning.
+# How To Make Your Family Love You As A Tech Person
+In the past, I made a mistake by buying an "Android TV box". That was a few years ago, and its specifications can't even play a YouTube video. So I decide to build a new PC and choose Linux as the OS for watching TV, surfing the web and learning. This repository is a synthesis of what a Linux system would be like! I choose XFCE as DE because it's light but if you have a decent PC specs you can choose any distros you like!
+<br>
+This github includes everything you want to do on a fresh Linux system, it's different depending on your hardware and your distro you use. So always do your research on the internet. If you choose XFCE (Xubuntu, Linux Mint, Debian,..) like me, things will be easier for you because it's work for me.
 
 # Installation
 
@@ -11,7 +13,9 @@ sudo apt-get install gsmartcontrol
 sudo gsmartcontrol
 ```
 ## RAID
-```https://www.computernetworkingnotes.com/linux-tutorials/how-to-configure-raid-in-linux-step-by-step-guide.html```
+Original post: ```https://www.computernetworkingnotes.com/linux-tutorials/how-to-configure-raid-in-linux-step-by-step-guide.html```
+<br>
+Choose RAID 1 or RAID 5 for better safe.
 ```sh
 sudo apt install mdadm
 sudo mdadm --create --verbose /dev/[ RAID array Name or Number] --level=[RAID Level] --raid-devices=[Number of storage devices] [Storage Device] [Storage Device]
@@ -62,11 +66,8 @@ Exec=<path> --password-store=basic
 Done! No need to type passwd anymore.
 ```
 <br>
-Logo: 
 
-```
-https://github.com/Alex313031/thorium/blob/main/logos/NEW/product_logo_2048.png
-```
+Logo: ```https://github.com/Alex313031/thorium/blob/main/logos/NEW/product_logo_2048.png```
 
 ### Quality of Life.
 uBlock Origin: ```https://github.com/gorhill/uBlock```
@@ -160,7 +161,7 @@ On login run: ```Session And Startup```
 ## Fix Screen Choppy, Tearing, Stutter, Lagging
 ```sh
 Try this steps if one of these working! I'm using Intel i3-4130 and NVIDIA Geforce GT 730.
-1. Change display cable (HDMI< VGA< DVI,...)
+1. Change display cable (HDMI, VGA, DVI,...)
 (Work for me, it's decrease the amount of lagging)
 2. Remove graphic drivers
 3. Allow more ram for integrated GPU in BIOS setting. I use GA-B85-HD3, after change the value to 1024M for my iGPU, the issue is gone.
@@ -183,8 +184,6 @@ sudo apt autoclean
 My house has a sofa, parents just get older, they shouldn't sit in the chair and stare in a big screen. That's cause health problem!
 <br>
 Using this software, you can plug in any device like a controller, gamepad. You can map any keyboard to that device. Feel free using computer while laying the bed!
-<br>
-AntiMicro: ```https://github.com/AntiMicro/antimicro```
 <br>
 AntiMicroX (Install this, new version): ```https://github.com/AntiMicroX/antimicrox```
 <br>
