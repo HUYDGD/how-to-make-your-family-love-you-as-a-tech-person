@@ -13,12 +13,13 @@ sudo apt-get install gsmartcontrol
 sudo gsmartcontrol
 ```
 # Disk Permission
-All users: ```sudo chmod 777 foldername```
+All users: ```sudo chmod 777 <foldername>```
 <br>
 Specific user:
 ```sh
-cd /media/your_external_drive
-sudo chown -R -v your_username:your_username *
+mkdir <your folder name> #sudo might be needed.
+sudo chown user:user <folder name>
+sudo chmod 770 <folder name>  #user and sudoers full access, other no access
 ```
 
 ## RAID
