@@ -10,6 +10,11 @@ I buy cheap stuff from Taobao, so always be careful.
 sudo apt-get install gsmartcontrol
 sudo gsmartcontrol
 ```
+## RAID
+```sh
+sudo apt install mdadm
+mdadm --create --verbose /dev/[ RAID array Name or Number] --level=[RAID Level] --raid-devices=[Number of storage devices] [Storage Device] [Storage Device]
+```
 
 ## Themes
 ### My family love beautiful GUI.
