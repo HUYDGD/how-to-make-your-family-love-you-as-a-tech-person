@@ -14,6 +14,7 @@ sudo gsmartcontrol
 ```
 # Disk Permission
 All users: ```sudo chmod 777 foldername```
+<br>
 Specific user:
 ```sh
 cd /media/your_external_drive
