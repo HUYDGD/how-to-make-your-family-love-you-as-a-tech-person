@@ -12,6 +12,14 @@ I buy cheap stuff from Taobao, so always be careful.
 sudo apt-get install gsmartcontrol
 sudo gsmartcontrol
 ```
+# Disk Permission
+All users: ```sudo chmod 777 foldername```
+Specific user:
+```sh
+cd /media/your_external_drive
+sudo chown -R -v your_username:your_username *
+```
+
 ## RAID
 Original post: ```https://www.computernetworkingnotes.com/linux-tutorials/how-to-configure-raid-in-linux-step-by-step-guide.html```
 <br>
