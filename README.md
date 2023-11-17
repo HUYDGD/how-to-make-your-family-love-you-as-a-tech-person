@@ -170,6 +170,8 @@ Try this steps if one of these working! I'm using Intel i3-4130 and NVIDIA Gefor
 The issue is always related to cable or graphic card. AMD is your friend when choosing hardware for Linux!
 ```
 More links.
+```https://github.com/bauca/graphics-switcher```
+```https://forums.developer.nvidia.com/t/for-those-having-stutters-under-x11/265708```
 ```https://forums.linuxmint.com/viewtopic.php?t=360334```
 ```https://askubuntu.com/questions/1230768/stutter-every-500-ms-using-nvidia-driver```
 ```https://www.google.com/search?q=nvidia+drivers+stutter+linux&oq=nvidia+drivers+stutter+linux```
