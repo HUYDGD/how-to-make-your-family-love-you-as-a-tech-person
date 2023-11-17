@@ -11,9 +11,14 @@ sudo apt-get install gsmartcontrol
 sudo gsmartcontrol
 ```
 ## RAID
+```https://www.computernetworkingnotes.com/linux-tutorials/how-to-configure-raid-in-linux-step-by-step-guide.html```
 ```sh
 sudo apt install mdadm
-mdadm --create --verbose /dev/[ RAID array Name or Number] --level=[RAID Level] --raid-devices=[Number of storage devices] [Storage Device] [Storage Device]
+sudo mdadm --create --verbose /dev/[ RAID array Name or Number] --level=[RAID Level] --raid-devices=[Number of storage devices] [Storage Device] [Storage Device]
+mkfs –t [File system type] [RAID Device]
+#RAID 0 with 3 drives
+sudo mdadm --create --verbose /dev/md0 --level=0 --raid-devices=3 /dev/sdb /dev/sdc /dev/sdd
+mkfs –t ext4 /dev/md0
 ```
 
 ## Themes
