@@ -176,6 +176,7 @@ Try this steps if one of these working! I'm using Intel i3-4130 and NVIDIA Gefor
 2. Remove graphic drivers
 3. Allow more ram for integrated GPU in BIOS setting. I use GA-B85-HD3, after change the value to 1024M for my iGPU, the issue is gone.
 4. Disable compositors (maybe)
+(sudo apt-get install -y compton)
 5. In my case, I don't use propriety drivers, just use X Server instead. The problem will be fixed.
 The issue is always related to cable or graphic card. AMD is your friend when choosing hardware for Linux!
 ```
