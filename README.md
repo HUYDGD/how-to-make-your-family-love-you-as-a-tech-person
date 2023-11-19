@@ -35,6 +35,11 @@ sudo mdadm --create --verbose /dev/md0 --level=0 --raid-devices=3 /dev/sdb /dev/
 mkfs –t ext4 /dev/md0
 ```
 
+## Logout User
+```
+sudo pkill -SIGKIL -u <user>
+```
+
 ## Themes
 ### My family love beautiful GUI.
 Themes: ```git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1```
