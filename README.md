@@ -140,6 +140,12 @@ Always go with MPV, because I love mining sentences: ```https://github.com/mpv-p
 ## E-Learning
 Using Anki, it'll help you deal with ADHD: ```https://apps.ankiweb.net/```
 
+## Fix Anki Blank
+```sh
+.bashrc
+alias anki="QTWEBENGINE_DISABLE_SANDBOX=1 anki"
+```
+
 ## Reading E-Books (PDF, MOBI, EPUB,...)
 ```https://github.com/kovidgoyal/calibre```
 
