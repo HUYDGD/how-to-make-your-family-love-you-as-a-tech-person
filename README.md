@@ -112,7 +112,6 @@ sudo pip install pynput
 sudo pip3 install manga-ocr
 python3 main.py
 ```
-<br>
 How to fix bug small window on Linux:
 
 ```sh
