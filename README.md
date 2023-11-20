@@ -12,7 +12,7 @@ I buy cheap stuff from Taobao, so always be careful.
 sudo apt-get install gsmartcontrol
 sudo gsmartcontrol
 ```
-# Disk Permission
+## Disk Permission
 All users: ```sudo chmod 777 <foldername>```
 <br>
 Specific user:
@@ -57,6 +57,15 @@ pactl list short sinks
 pactl set-default-sink 'Your_Device_Name'
 ```
 
+## Change Audio Bitrate
+```sh
+sudo nano /etc/pulse/daemon.conf
+flat-volumes = no   
+resample-method = speex-float-3
+default-sample-format = s24le
+default-sample-rate = 192000
+```
+
 ## Disable gnome-keyring
 Parents shouldn't waste time with technology, all they need is fast and quality.
 <br>
@@ -92,6 +101,16 @@ Youtube Auto Skip Sponsor: ```https://github.com/ajayyy/SponsorBlock```
 Youtube Non Stop: ```https://github.com/lawfx/YoutubeNonStop```
 <br>
 I am Japanophile: ```https://github.com/FooSoft/yomichan``` && ```https://learnjapanese.link/dictionarie```
+
+## OCR Japanese with Cloe
+Cloe is the best OCR ever! It's use manga-ocr.
+```https://github.com/blueaxis/Cloe```
+```sh
+sudo apt-get install python3-pyqt5
+sudo apt-get install python3-pip
+sudo pip3 install manga-ocr
+python3 main.py
+```
 
 ## Video player
 Always go with MPV, because I love mining sentences: ```https://github.com/mpv-player/mpv```
@@ -142,6 +161,9 @@ Play On Linux:
 ```
 https://www.playonlinux.com/en/
 ```
+
+## Gaming with Lutris
+```https://github.com/lutris/lutris```
 
 ## Type Telex with ibus-bamboo
 ### Hello everyone = Dit me may in Vietnamese.
