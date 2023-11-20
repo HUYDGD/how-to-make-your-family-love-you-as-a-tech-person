@@ -108,6 +108,7 @@ Cloe is the best OCR ever! It's use manga-ocr.
 ```sh
 sudo apt-get install python3-pyqt5
 sudo apt-get install python3-pip
+sudo pip install pynput
 sudo pip3 install manga-ocr
 python3 main.py
 ```
