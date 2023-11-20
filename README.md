@@ -112,6 +112,27 @@ sudo pip install pynput
 sudo pip3 install manga-ocr
 python3 main.py
 ```
+<br>
+How to fix bug small window on Linux:
+```sh
+cd ./app/components/views/ocr
+sudo nano base.py
+```
+
+```sh
+class BaseOCRView(QGraphicsView):
+    """
+    Base view with OCR capabilities
+    """
+
+    def __init__(self, parent: QWidget):
+        super().__init__(parent)
+        self.setMinimumSize(QSize(1360,768)) #Change size to match your windows size!
+        self._timer = QTimer()
+        self._timer.setInterval(300)
+        self._timer.setSingleShot(True)
+        self._timer.timeout.connect(self.rubberBandStopped)
+```
 
 ## Video player
 Always go with MPV, because I love mining sentences: ```https://github.com/mpv-player/mpv```
