@@ -114,6 +114,7 @@ python3 main.py
 ```
 <br>
 How to fix bug small window on Linux:
+
 ```sh
 cd ./app/components/views/ocr
 sudo nano base.py
