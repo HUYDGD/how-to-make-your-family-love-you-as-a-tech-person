@@ -51,7 +51,13 @@ if below command returns true then set it false
 gsettings get org.gnome.desktop.screensaver idle-activation-enabled
 gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
 ```
-
+```sh
+gsettings set org.gnome.desktop.lockdown disable-lock-screen true
+gsettings set org.gnome.desktop.screensaver lock-enabled false
+gsettings set org.gnome.desktop.screensaver ubuntu-lock-on-suspend false
+gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
+gsettings set org.gnome.desktop.session idle-delay 0
+```
 ## Logout User
 ```
 sudo pkill -SIGKIL -u <user>
