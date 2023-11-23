@@ -35,6 +35,23 @@ sudo mdadm --create --verbose /dev/md0 --level=0 --raid-devices=3 /dev/sdb /dev/
 mkfs –t ext4 /dev/md0
 ```
 
+## Disable Lock Screen
+It's so annoying me when playing game, so I decide to disable this feature.
+```sh
+if below command gives false then set it to true
+
+gsettings get org.gnome.desktop.lockdown disable-lock-screen
+gsettings set org.gnome.desktop.lockdown disable-lock-screen 'true'
+if below command returns true then set it false
+
+gsettings get org.gnome.desktop.screensaver lock-enabled
+gsettings set org.gnome.desktop.screensaver lock-enabled false
+if below command returns true then set it false
+
+gsettings get org.gnome.desktop.screensaver idle-activation-enabled
+gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
+```
+
 ## Logout User
 ```
 sudo pkill -SIGKIL -u <user>
