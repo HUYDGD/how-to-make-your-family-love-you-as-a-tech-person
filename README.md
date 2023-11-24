@@ -21,6 +21,11 @@ mkdir <your folder name> #sudo might be needed.
 sudo chown user:user <folder name>
 sudo chmod 770 <folder name>  #user and sudoers full access, other no access
 ```
+## Audio 
+```sh
+sudo apt-get install pavucontrol
+pavucontrol
+```
 
 ## RAID
 Original post: ```https://www.computernetworkingnotes.com/linux-tutorials/how-to-configure-raid-in-linux-step-by-step-guide.html```
