@@ -27,6 +27,12 @@ sudo apt-get install pavucontrol
 pavucontrol
 ```
 
+# Fix Microphone Not Working
+```sh
+arecord --duration=5 --format=dat test-mic.wav
+aplay test-mic.wav
+```
+
 ## RAID
 Original post: ```https://www.computernetworkingnotes.com/linux-tutorials/how-to-configure-raid-in-linux-step-by-step-guide.html```
 <br>
