@@ -63,6 +63,10 @@ gsettings set org.gnome.desktop.screensaver ubuntu-lock-on-suspend false
 gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
 gsettings set org.gnome.desktop.session idle-delay 0
 ```
+```sh
+Screensaver
+```
+
 ## Logout User
 ```
 sudo pkill -SIGKIL -u <user>
@@ -98,6 +102,7 @@ default-sample-rate = 192000
 Parents shouldn't waste time with technology, all they need is fast and quality.
 <br>
 ```sudo apt-get remove gnome-keyring```
+```sudo apt install seahorse```
 
 ## Remote Desktop from Windows 10
 ```sh
