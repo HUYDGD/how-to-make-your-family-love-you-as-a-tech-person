@@ -264,6 +264,7 @@ Try this steps if one of these working! I'm using Intel i3-4130 and NVIDIA Gefor
 The issue is always related to cable or graphic card. AMD is your friend when choosing hardware for Linux!
 6. sudo add-apt-repository ppa:graphics-drivers/ppa && sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install -y nvidia-driver-535 libvulkan1 libvulkan1:i386
 7. sudo add-apt-repository ppa:kisak/kisak-mesa && sudo dpkg --add-architecture i386 && sudo apt update && sudo apt upgrade && sudo apt install libgl1-mesa-dri:i386 mesa-vulkan-drivers mesa-vulkan-drivers:i386
+8. nvidia-settings -a "[gpu:0]/GpuPowerMizerMode=1"
 ```
 More links.
 ```https://github.com/bauca/graphics-switcher```
