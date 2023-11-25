@@ -38,6 +38,18 @@ sudo mdadm --create --verbose /dev/md0 --level=0 --raid-devices=3 /dev/sdb /dev/
 mkfs –t ext4 /dev/md0
 ```
 
+# Wifi & Ethernet & Bluetooth
+```sh
+iwconfig # See all devices
+sudo ifconfig <device> up # Enable
+
+# Bluetooth
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+rfkill # Check status
+sudo rfkill unblock bluetooth
+```
+
 ## Audio 
 ```sh
 sudo apt-get install pavucontrol
